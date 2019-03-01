@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <link rel="stylesheet" href="1.css" id="link1">
+ <script>
+	window.onload = function(){
+		var oLink = document.getElementById('link1');//document.getElementById()意为读取一个id；oLink：o对应上方的onload匿名函数													，link对应上方id：link1；
+		oLink.href = "2.css";//写属性，href是属性
+		alert(oLink.id);//读属性
+		}
+ </script>
+ <body>
+  <div class="box01"></div>
+  <div class="box02"></div>
+ </body>
+</html>
